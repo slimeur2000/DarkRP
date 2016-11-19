@@ -30,11 +30,11 @@ GM.Config.allowsprays                   = true
 -- allowvehicleowning - Enable/disable whether people can own vehicles.
 GM.Config.allowvehicleowning            = true
 -- allowvnocollide - Enable/disable the ability to no-collide a vehicle (for security).
-GM.Config.allowvnocollide               = false
+GM.Config.allowvnocollide               = true
 -- alltalk - Enable for global chat, disable for local chat.
-GM.Config.alltalk                       = false
+GM.Config.alltalk                       = true
 -- autovehiclelock - Enable/Disable automatic locking of a vehicle when a player exits it.
-GM.Config.autovehiclelock               = false
+GM.Config.autovehiclelock               = true
 -- babygod - people spawn godded (prevent spawn killing).
 GM.Config.babygod                       = true
 -- canforcedooropen - whether players can force an unownable door open with lockpick or battering ram or w/e.
@@ -44,11 +44,11 @@ GM.Config.chatsounds                    = true
 -- chiefjailpos - Allow the Chief to set the jail positions.
 GM.Config.chiefjailpos                  = true
 -- cit_propertytax - Enable/disable property tax that is exclusive only for citizens.
-GM.Config.cit_propertytax               = false
+GM.Config.cit_propertytax               = true
 -- copscanunfreeze - Enable/disable the ability of cops to unfreeze other people's props.
 GM.Config.copscanunfreeze               = true
 -- copscanunweld - Enable/disable the ability of cops to unweld other people's props.
-GM.Config.copscanunweld                 = false
+GM.Config.copscanunweld                 = true 
 -- cpcanarrestcp - Allow/Disallow CPs to arrest other CPs.
 GM.Config.cpcanarrestcp                 = true
 -- currencyLeft - The position of the currency symbol. true for left, false for right.
@@ -58,7 +58,7 @@ GM.Config.customjobs                    = true
 -- customspawns - Enable/disable whether custom spawns should be used.
 GM.Config.customspawns                  = true
 -- deathblack - Whether or not a player sees black on death.
-GM.Config.deathblack                    = false
+GM.Config.deathblack                    = true
 -- showdeaths - Display kill information in the upper right corner of everyone's screen.
 GM.Config.showdeaths                    = true
 -- deadtalk - Enable/disable whether people talk and use commands while dead.
@@ -66,33 +66,33 @@ GM.Config.deadtalk                      = true
 -- deadvoice - Enable/disable whether people talk through the microphone while dead.
 GM.Config.deadvoice                     = true
 -- deathpov - Enable/disable whether people see their death in first person view.
-GM.Config.deathpov                      = false
+GM.Config.deathpov                      = true
 -- decalcleaner - Enable/Disable clearing ever players decals.
-GM.Config.decalcleaner                  = false
+GM.Config.decalcleaner                  = true
 -- disallowClientsideScripts - Clientside scripts can be very useful for customizing the HUD or to aid in building. This option bans those scripts.
-GM.Config.disallowClientsideScripts     = false
+GM.Config.disallowClientsideScripts     = true
 -- doorwarrants - Enable/disable Warrant requirement to enter property.
 GM.Config.doorwarrants                  = true
 -- dropmoneyondeath - Enable/disable whether people drop money on death.
-GM.Config.dropmoneyondeath              = false
+GM.Config.dropmoneyondeath              = true
 -- droppocketarrest - Enable/disable whether people drop the stuff in their pockets when they get arrested.
-GM.Config.droppocketarrest              = false
+GM.Config.droppocketarrest              = true
 -- droppocketdeath - Enable/disable whether people drop the stuff in their pockets when they die.
 GM.Config.droppocketdeath               = true
 -- dropweapondeath - Enable/disable whether people drop their current weapon when they die.
-GM.Config.dropweapondeath               = false
+GM.Config.dropweapondeath               = true
 -- Whether players can drop the weapons they spawn with.
 GM.Config.dropspawnedweapons            = true
 -- dynamicvoice - Enable/disable whether only people in the same room as you can hear your mic.
 GM.Config.dynamicvoice                  = true
 -- earthquakes - Enable/disable earthquakes.
-GM.Config.earthquakes                   = false
+GM.Config.earthquakes                   = true
 -- enablebuypistol - Turn /buy on of off.
 GM.Config.enablebuypistol               = true
 -- enforceplayermodel - Whether or not to force players to use their role-defined character models.
 GM.Config.enforceplayermodel            = true
 -- globalshow - Whether or not to display player info above players' heads in-game.
-GM.Config.globalshow                    = false
+GM.Config.globalshow                    = true
 -- ironshoot - Enable/disable whether people need iron sights to shoot.
 GM.Config.ironshoot                     = true
 -- showjob - Whether or not to display a player's job above their head in-game.
@@ -100,7 +100,7 @@ GM.Config.showjob                       = true
 -- letters - Enable/disable letter writing / typing.
 GM.Config.letters                       = true
 -- license - Enable/disable People need a license to be able to pick up guns.
-GM.Config.license                       = false
+GM.Config.license                       = true
 -- lockdown - Enable/Disable initiating lockdowns for mayors.
 GM.Config.lockdown                      = true
 -- lockpickfading - Enable/disable the lockpicking of fading doors.
@@ -114,9 +114,9 @@ GM.Config.showname                      = true
 -- showhealth - Whether or not to display a player's health above their head in-game.
 GM.Config.showhealth                    = true
 -- needwantedforarrest - Enable/disable Cops can only arrest wanted people.
-GM.Config.needwantedforarrest           = false
+GM.Config.needwantedforarrest           = true
 -- noguns - Enabling this feature bans Guns and Gun Dealers.
-GM.Config.noguns                        = false
+GM.Config.noguns                        = true
 -- norespawn - Enable/Disable that people don't have to respawn when they change job.
 GM.Config.norespawn                     = true
 -- npcarrest - Enable/disable arresting npc's.
@@ -124,9 +124,9 @@ GM.Config.npcarrest                     = true
 -- ooc - Whether or not OOC tags are enabled.
 GM.Config.ooc                           = true
 -- propertytax - Enable/disable property tax.
-GM.Config.propertytax                   = false
+GM.Config.propertytax                   = true
 -- proppaying - Whether or not players should pay for spawning props.
-GM.Config.proppaying                    = false
+GM.Config.proppaying                    = true
 -- propspawning - Enable/disable props spawning. Applies to admins too.
 GM.Config.propspawning                  = true
 -- removeclassitems - Enable/disable shipments/microwaves/etc. removal when someone changes team.
@@ -136,17 +136,17 @@ GM.Config.removeondisconnect            = true
 -- respawninjail - Enable/disable whether people can respawn in jail when they die.
 GM.Config.respawninjail                 = true
 -- restrictallteams - Enable/disable Players can only be citizen until an admin allows them.
-GM.Config.restrictallteams              = false
+GM.Config.restrictallteams              = true
 -- restrictbuypistol - Enabling this feature makes /buy available only to Gun Dealers.
-GM.Config.restrictbuypistol             = false
+GM.Config.restrictbuypistol             = true
 -- restrictdrop - Enable/disable restricting the weapons players can drop. Setting this to true disallows weapons from shipments from being dropped.
-GM.Config.restrictdrop                  = false
+GM.Config.restrictdrop                  = true
 -- revokeLicenseOnJobChange - Whether licenses are revoked when a player changes jobs.
 GM.Config.revokeLicenseOnJobChange      = true
 -- shouldResetLaws - Enable/Disable resetting the laws back to the default law set when the mayor changes.
-GM.Config.shouldResetLaws               = false
+GM.Config.shouldResetLaws               = true
 -- strictsuicide - Whether or not players should spawn where they suicided.
-GM.Config.strictsuicide                 = false
+GM.Config.strictsuicide                 = true
 -- telefromjail - Enable/disable teleporting from jail.
 GM.Config.telefromjail                  = true
 -- teletojail - Enable/disable teleporting to jail.
